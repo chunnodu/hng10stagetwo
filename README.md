@@ -3,9 +3,9 @@
 
 ### Standard formats for requests and responses for eah endpoint
 
-## Sample usage of the API 
+### Sample usage of the API 
 
-Create a person
+#### Create a person
 
 request:
                 POST /person
@@ -15,27 +15,27 @@ request:
 
 response
 
-### Retrieve a person by name
+#### Retrieve a person by name
 
         request:   GET /person/John%20Doe
 
-### Update a person's information:
+#### Update a person's information:
 
     request: PUT /person/{id}
     {
         "age": 31
     }
 
-### Delete a person
+#### Delete a person
     
     request: DELETE /person/{person_id}
 
 
-## Known limitations or assumptions made
+### Known limitations or assumptions made
 
 
 
-## Instructions for Local Deploy
+### Instructions for Local Deploy
 
 
-## Instructions for Setting up on Server - Render was used
+### Instructions for Setting up on Server - Render was used
