@@ -13,6 +13,7 @@ The API allows you to perform CRUD (Create, Read, Update, Delete) operations on 
 	   - [Update a Person](#update-a-person)
 	   - [Delete a Person](#delete-a-person)
 	   - [Retrieve a List of People](#retrieve-a-list-of-people)
+3. [UML and E/R diagram](#uml-and-er-diagram)
 
 ## 1. Setup
 
