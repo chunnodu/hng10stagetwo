@@ -168,3 +168,5 @@ Before using the API, set up the necessary dependencies and database. Make sure 
 **Response**: No content (HTTP status code 204).
 
 
+## 3 UML and E-R Diagram
+![UML and Entity Relationship Diagram](uml.png)
