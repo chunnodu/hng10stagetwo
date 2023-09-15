@@ -6,7 +6,7 @@
 ## Sample usage of the API 
 
 Create a person
-        request:
+request:
                 POST /person
                 {
                     "name": "John Doe",
