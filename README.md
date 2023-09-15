@@ -21,18 +21,17 @@ Before using the API, set up the necessary dependencies and database. Make sure 
 
 1. **Install Dependencies**: Create a virtual environment (optional but recommended) and install the required Python packages using pip:
 
-	   ```bash
+	   
 	   pip install fastapi sqlalchemy uvicorn
-	   ```
+	
 
 2. **Database Configuration**: The API uses a database to store person data. Ensure that you have set up your database configuration in the `db.py` file. You should have the database URL defined in the `engine` object.
 
 3. **Run the Application**: During development, start the FastAPI application by running the following command in the terminal from the directory containing your `stagetwo.py` file:
 
 
-   ```bash
-   uvicorn stagetwo:app --host 0.0.0.0 --port 8000 --reload
-   ```
+  		uvicorn stagetwo:app --host 0.0.0.0 --port 8000 --reload
+  
 
    Replace `stagetwo` with the actual name of your FastAPI python file if it has a different name.
    
@@ -46,9 +45,8 @@ Before using the API, set up the necessary dependencies and database. Make sure 
     - select commit to deploy
     - use the following command to start the service
    
- ```bash
-   uvicorn stagetwo:app --host 0.0.0.0 --port 8000 --reload
-   ```
+			uvicorn stagetwo:app --host 0.0.0.0 --port 8000 --reload
+   
    
    
 
