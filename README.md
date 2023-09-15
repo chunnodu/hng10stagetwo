@@ -6,26 +6,28 @@
 ## Sample usage of the API 
 
 Create a person
+        request:
+                POST /person
+                {
+                    "name": "John Doe",
+                }
 
-        POST /person
-        {
-            "name": "John Doe",
-        }
+response
 
 ### Retrieve a person by name
 
-    GET /person/John%20Doe
+        request:   GET /person/John%20Doe
 
 ### Update a person's information:
 
-    PUT /person/{id}
+    request: PUT /person/{id}
     {
         "age": 31
     }
 
 ### Delete a person
     
-    DELETE /person/{person_id}
+    request: DELETE /person/{person_id}
 
 
 ## Known limitations or assumptions made
